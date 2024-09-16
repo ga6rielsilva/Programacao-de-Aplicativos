@@ -19,6 +19,8 @@ while True:
     else:
         print("\nJogador 1 venceu!\n")
 
+# PARTE DO EXERCICIO 3
+
     # Verifica se os jogadores desejam jogar novamente
     i = int(input("Deseja jogar novamente? \n0 - Sim\n1 - Não\n> "))
     if i < 0 or i > 1:
