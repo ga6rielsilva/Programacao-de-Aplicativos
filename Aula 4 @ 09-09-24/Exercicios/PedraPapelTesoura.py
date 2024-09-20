@@ -13,10 +13,17 @@ while True:
 
     if j1 == j2:
         print("Empate!")
-
     elif j1 == 0 and j2 == 1:
         print("\nJogador 2 venceu!\n")
-    else:
+    elif j1 == 0 and j2 == 2:
+        print("\nJogador 1 venceu!\n")
+    elif j1 == 1 and j2 == 0:
+        print("\nJogador 1 venceu!\n")
+    elif j1 == 1 and j2 == 2:
+        print("\nJogador 2 venceu!\n")
+    elif j1 == 2 and j2 == 0:
+        print("\nJogador 2 venceu!\n")
+    elif j1 == 2 and j2 == 1:
         print("\nJogador 1 venceu!\n")
 
 # PARTE DO EXERCICIO 3
